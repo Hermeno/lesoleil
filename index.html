@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>LE SOLEIL mani &amp; pedi</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "inverse-primary": "#e9c176",
+              "primary": "#775a19",
+              "surface": "#faf9f6",
+              "on-tertiary-container": "#423a30",
+              "surface-container": "#efeeeb",
+              "tertiary": "#665d52",
+              "surface-container-low": "#f4f3f1",
+              "secondary": "#6c5a56",
+              "error-container": "#ffdad6",
+              "error": "#ba1a1a",
+              "on-error-container": "#93000a",
+              "surface-tint": "#775a19",
+              "on-primary-container": "#4e3700",
+              "on-tertiary-fixed": "#211b12",
+              "secondary-fixed": "#f5ddd7",
+              "inverse-on-surface": "#f2f1ee",
+              "on-secondary-container": "#705f5a",
+              "surface-dim": "#dbdad7",
+              "on-surface-variant": "#4e4639",
+              "primary-container": "#c5a059",
+              "on-surface": "#1a1c1a",
+              "surface-container-highest": "#e3e2e0",
+              "outline-variant": "#d1c5b4",
+              "on-primary-fixed-variant": "#5d4201",
+              "surface-bright": "#faf9f6",
+              "on-error": "#ffffff",
+              "surface-variant": "#e3e2e0",
+              "tertiary-container": "#afa497",
+              "on-secondary-fixed-variant": "#53433f",
+              "tertiary-fixed": "#eee0d2",
+              "secondary-container": "#f2dbd5",
+              "on-primary-fixed": "#261900",
+              "tertiary-fixed-dim": "#d1c5b7",
+              "on-tertiary-fixed-variant": "#4e453b",
+              "background": "#faf9f6",
+              "on-primary": "#ffffff",
+              "inverse-surface": "#2f312f",
+              "on-secondary": "#ffffff",
+              "surface-container-lowest": "#ffffff",
+              "primary-fixed": "#ffdea5",
+              "secondary-fixed-dim": "#d8c2bc",
+              "on-secondary-fixed": "#251915",
+              "on-background": "#1a1c1a",
+              "primary-fixed-dim": "#e9c176",
+              "surface-container-high": "#e9e8e5",
+              "outline": "#7f7667",
+              "on-tertiary": "#ffffff"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(250, 249, 246, 1) 0%, rgba(244, 243, 241, 0.8) 100%);
+        }
+        .gold-glow {
+            box-shadow: 0 20px 40px rgba(119, 90, 25, 0.06);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="bg-[#faf9f6]/70 dark:bg-[#1a1917]/70 backdrop-blur-xl fixed top-0 w-full z-50">
+<div class="flex justify-between items-center px-12 py-6 max-w-[1920px] mx-auto">
+<div class="text-2xl font-['Noto_Serif'] italic tracking-tighter text-[#775a19] dark:text-[#c5a059]">LE SOLEIL</div>
+<div class="hidden md:flex items-center gap-10">
+<a class="font-['Noto_Serif'] uppercase tracking-[0.1em] text-xs text-[#775a19] dark:text-[#c5a059] border-b-2 border-[#775a19] pb-1 hover:text-[#775a19] transition-colors duration-300" href="#about">About</a>
+<a class="font-['Noto_Serif'] uppercase tracking-[0.1em] text-xs text-[#4e4639] dark:text-[#d1c5b4] hover:text-[#775a19] transition-colors duration-300" href="#services">Services</a>
+<a class="font-['Noto_Serif'] uppercase tracking-[0.1em] text-xs text-[#4e4639] dark:text-[#d1c5b4] hover:text-[#775a19] transition-colors duration-300" href="#gallery">Gallery</a>
+<a class="font-['Noto_Serif'] uppercase tracking-[0.1em] text-xs text-[#4e4639] dark:text-[#d1c5b4] hover:text-[#775a19] transition-colors duration-300" href="#why-us">Why Us</a>
+</div>
+<div class="flex items-center gap-6">
+<button class="hidden md:flex items-center gap-2 text-[#775a19]">
+<span class="material-symbols-outlined" data-icon="calendar_month">calendar_month</span>
+</button>
+<button class="bg-gradient-to-r from-primary to-primary-container text-on-primary px-8 py-3 rounded-full font-label text-sm font-semibold tracking-wider hover:opacity-90 active:scale-95 transition-all">Book Now</button>
+</div>
+</div>
+</nav>
+<main class="pt-24">
+<!-- Hero Section -->
+<section class="relative min-h-[921px] flex items-center px-12 overflow-hidden">
+<div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="z-10">
+<span class="font-label text-primary uppercase tracking-[0.2em] text-sm mb-6 block">The Editorial Sanctuary</span>
+<h1 class="font-headline text-7xl md:text-8xl text-on-surface-variant leading-[0.9] tracking-tighter mb-8">
+                    LE SOLEIL <br/> <span class="italic font-light">mani &amp; pedi</span>
+</h1>
+<p class="text-xl text-on-surface-variant/80 max-w-md mb-12 font-light leading-relaxed">
+                    Luxury Manicure &amp; Pedicure Experience. Discover a digital retreat where beauty meets precision in every stroke.
+                </p>
+<div class="flex flex-wrap gap-6">
+<a class="bg-gradient-to-r from-primary to-primary-container text-on-primary px-10 py-5 rounded-full font-label text-sm font-bold tracking-widest flex items-center gap-3 gold-glow active:scale-95 transition-all" href="#">
+                        BOOK ON WHATSAPP
+                        <span class="material-symbols-outlined text-lg">chat</span>
+</a>
+</div>
+</div>
+<div class="relative">
+<div class="aspect-[4/5] rounded-xl overflow-hidden gold-glow">
+<img alt="Luxury manicure" class="w-full h-full object-cover" data-alt="Close-up of elegant manicured nails with soft nude polish on a woman holding a silk fabric, soft warm sunlight lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7ma5ngW9xLs2YUlanGD6R2mjgcwd6xP0mgH8lytwO0qw6PKej3zM0JinSW2K-WgBUoiqMKrU0zwaPxZFrARVjGEj9ygAnlV-3xXKfevLBdJX50V4jrj5tfUHs-8ZANYGrgnrAiPnOCb2nXADt_NwzOwF8bKcJ-IWUpDVvObDJGx2BAm4W6x33clUVmyvIbtkMSwya4M7_qIm7r3jhUhpLZulaBhJswOLpdFNnIMWoUsyLMTdcokW5xxmSZYhn57r8o3lf3q5b9wI"/>
+</div>
+<div class="absolute -bottom-10 -left-10 w-64 h-80 rounded-xl overflow-hidden border-[12px] border-surface hidden md:block gold-glow">
+<img alt="Nail detail" class="w-full h-full object-cover" data-alt="Detailed view of high-end nail art on aesthetic hands resting on a white marble surface with minimal shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTl_K1RHyRcvTe0KVOw3jlD4Co-D0GWk4msc_R3bYeent3kDHhW_n49BEi8_TcqTvFkEY1IPzNrKOZR34hIFiYfzAalZH6XCjIkDx4pD6OMHDvVjDFAmoamHG4Net1QrMwhI1Flwysw2mSQAQtlU_4h5xMZwuoU6LskPZR0v7Oo7Vl_JWW3DvdgIBxVJd-Vyv0eO6nZttzzh1pRdM7nOvTi81uV3745Vk2o9Akp-egfSis7PgIqxMYhHFrpSGbtR5R3pp-EsDKqGg"/>
+</div>
+</div>
+</div>
+<div class="absolute top-1/2 -right-64 w-[600px] h-[600px] bg-primary/5 rounded-full blur-[120px] pointer-events-none"></div>
+</section>
+<!-- About Section -->
+<section class="py-32 px-12 bg-surface-container-low" id="about">
+<div class="container mx-auto">
+<div class="max-w-4xl mx-auto text-center mb-20">
+<h2 class="font-headline text-5xl text-primary mb-8 tracking-tight italic">Our Essence</h2>
+<p class="text-on-surface-variant text-lg leading-relaxed font-light">
+                    At LE SOLEIL, hygiene is not a protocol—it is a promise. We blend high-end products with an editorial eye for detail to ensure your hands and feet receive the sanctuary they deserve.
+                </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="text-center group">
+<div class="w-20 h-20 bg-surface-container-lowest rounded-full flex items-center justify-center mx-auto mb-8 gold-glow group-hover:bg-primary transition-colors duration-500">
+<span class="material-symbols-outlined text-primary group-hover:text-surface text-3xl" data-icon="sanitizer">sanitizer</span>
+</div>
+<h3 class="font-headline text-2xl mb-4">Medical-Grade Hygiene</h3>
+<p class="text-on-surface-variant font-light px-6">Every tool undergoes rigorous sterilization for your absolute peace of mind.</p>
+</div>
+<div class="text-center group">
+<div class="w-20 h-20 bg-surface-container-lowest rounded-full flex items-center justify-center mx-auto mb-8 gold-glow group-hover:bg-primary transition-colors duration-500">
+<span class="material-symbols-outlined text-primary group-hover:text-surface text-3xl" data-icon="auto_awesome">auto_awesome</span>
+</div>
+<h3 class="font-headline text-2xl mb-4">Premium Products</h3>
+<p class="text-on-surface-variant font-light px-6">We use only the finest vegan-friendly and long-lasting luxury nail brands.</p>
+</div>
+<div class="text-center group">
+<div class="w-20 h-20 bg-surface-container-lowest rounded-full flex items-center justify-center mx-auto mb-8 gold-glow group-hover:bg-primary transition-colors duration-500">
+<span class="material-symbols-outlined text-primary group-hover:text-surface text-3xl" data-icon="hand_gesture">hand_gesture</span>
+</div>
+<h3 class="font-headline text-2xl mb-4">Professional Care</h3>
+<p class="text-on-surface-variant font-light px-6">Our technicians are certified artists dedicated to the health of your natural nails.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section (Asymmetric Carousel Look) -->
+<section class="py-32 px-12" id="services">
+<div class="container mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+<div>
+<span class="font-label text-primary uppercase tracking-[0.2em] text-xs mb-4 block">Curated Menu</span>
+<h2 class="font-headline text-6xl text-on-surface leading-none">Treatments</h2>
+</div>
+<p class="text-on-surface-variant font-light max-w-sm">Elevate your daily routine with our signature manicure and pedicure services tailored for the modern minimalist.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- Card 1 (Large) -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-10 rounded-xl gold-glow border border-primary/5">
+<div class="flex flex-col md:flex-row gap-10">
+<div class="flex-1">
+<h3 class="font-headline text-3xl mb-4">The Classic Manicure</h3>
+<p class="text-on-surface-variant font-light mb-8">Nail shaping, cuticle care, hand massage, and a high-shine polish of your choice. A timeless essential for the sophisticated hand.</p>
+<div class="text-primary font-headline text-2xl mb-8">$45.00</div>
+<button class="text-primary font-label text-xs uppercase tracking-widest border-b border-primary/30 pb-2 hover:border-primary transition-all">Book This Service</button>
+</div>
+<div class="w-full md:w-64 h-80 rounded-lg overflow-hidden">
+<img alt="Classic Manicure" class="w-full h-full object-cover" data-alt="Elegant classic manicure with light pink polish, hand resting on a soft beige linen cloth in natural daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAaAjirOAtXiF0ulDO6jGsA9Cl6Vj8BKQgB7of7Dw7dmo_w0Z1kM8lJs8KJVChE0hRLsuiX4DepkgyhQR60dcuRCOoQpNjRQP_dh7GLQgpx-4vmj3t6C7VtQoLooDckOyKMsaN6YrbNCawGKOfNMr5B9gK_SwhE-6JaBe43MXQXeH1waWNGefp36LNcWYH2ZYBRq3Kk2McXmgDPaDTXI6DXDJ8cTYdT10Gfz_OTfsdhfpStvAmuMMKU4ZL-RIoQufZavGQhUBbXro"/>
+</div>
+</div>
+</div>
+<!-- Card 2 (Small) -->
+<div class="lg:col-span-5 bg-surface-container-low p-10 rounded-xl flex flex-col justify-between">
+<div>
+<h3 class="font-headline text-3xl mb-4">Gel Manicure</h3>
+<p class="text-on-surface-variant font-light mb-8">Long-lasting, chip-free beauty. Includes a Russian manicure prep and professional gel application with UV curing.</p>
+</div>
+<div class="flex justify-between items-end">
+<div class="text-primary font-headline text-2xl">$65.00</div>
+<button class="bg-primary text-surface p-4 rounded-full flex items-center justify-center hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 3 (Small) -->
+<div class="lg:col-span-5 bg-surface-container-low p-10 rounded-xl flex flex-col justify-between">
+<div>
+<h3 class="font-headline text-3xl mb-4">Spa Pedicure</h3>
+<p class="text-on-surface-variant font-light mb-8">A holistic journey. Eucalyptus soak, sea salt exfoliation, hydrating mask, and premium polish.</p>
+</div>
+<div class="flex justify-between items-end">
+<div class="text-primary font-headline text-2xl">$75.00</div>
+<button class="bg-primary text-surface p-4 rounded-full flex items-center justify-center hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 4 (Large) -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-10 rounded-xl gold-glow border border-primary/5">
+<div class="flex flex-col md:flex-row gap-10">
+<div class="w-full md:w-64 h-80 rounded-lg overflow-hidden">
+<img alt="Nail Art" class="w-full h-full object-cover" data-alt="Minimalist nail art with delicate gold lines on a nude base polish, artistic composition with soft focus background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSdxIOXc4jYITFXvRHtsos5cFhV5xsPjMswt2tFaA_6IvWCTX8sJG8M3l714tp6kvEHqoeDtVzWp9iXeDU_oPAoxMq7Mtfgx7QYKK0mJm8blCUFv61P672iejf7I8my2pG_zGaTBmHY58d90OwVd1W_8BStRdV-JUBO5b0rHapedq7ixXNCTirc-5sUHOEFrVBK5LWZ8M0fMSB8cjebPvdMNMuU9Yzv-KNxly7YdIsOicOacs4vj29Dni25A3ZEiYEZnmqb4832Og"/>
+</div>
+<div class="flex-1">
+<h3 class="font-headline text-3xl mb-4">Editorial Nail Art</h3>
+<p class="text-on-surface-variant font-light mb-8">From minimalist lines to intricate custom designs. Let our artists transform your nails into a personal masterpiece.</p>
+<div class="text-primary font-headline text-2xl mb-8">From $20.00</div>
+<button class="text-primary font-label text-xs uppercase tracking-widest border-b border-primary/30 pb-2 hover:border-primary transition-all">View Inspiration</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Gallery Section (Bento Grid Removed) -->
+<section class="py-24 px-12 bg-surface" id="gallery">
+<div class="container mx-auto">
+<div class="text-center max-w-2xl mx-auto">
+<h2 class="font-headline text-5xl mb-4 italic">Portfolio</h2>
+<p class="font-label text-xs uppercase tracking-[0.3em] text-primary">A Vision of Perfection</p>
+<div class="mt-8 h-px w-24 bg-primary/20 mx-auto"></div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us -->
+<section class="py-32 px-12 bg-surface-container" id="why-us">
+<div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+<div class="relative">
+<div class="aspect-square rounded-full border-[1px] border-primary/20 absolute -inset-8 animate-[spin_20s_linear_infinite] hidden lg:block"></div>
+<div class="aspect-square rounded-full overflow-hidden relative z-10 gold-glow">
+<img alt="Professional care" class="w-full h-full object-cover" data-alt="Professional nail technician with a mask performing a delicate manicure treatment in a bright clean studio" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQO0EXdBHWTTwxwydHCsJmn5no-xsqAIeqWEaQo2vnq7q_-tNXz_0P2e1Ku8b4TB_AVTOvnBI_g9_CUMpJMOJkgjNmf_ayzq7uDkeT4UCi0btUwIKqR-FuCE1XPvYhb2JYw5zWmRfzoqKFH12KF_H5yTclRHlo6VG3kXJuYtzZL4jwuCR0DOkAqdnrTGm4GiG-2jLWHtKDCWSw_oMcbbtkbhZaQA_z-62CV1ArE5PSDbmKe4WLD51DoH8hUuNIJBxgsDIDB0UlPoE"/>
+</div>
+</div>
+<div>
+<h2 class="font-headline text-5xl mb-12">The Le Soleil <span class="italic font-light">Difference</span></h2>
+<div class="space-y-10">
+<div class="flex gap-6 items-start">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="workspace_premium">workspace_premium</span>
+<div>
+<h4 class="font-headline text-xl mb-2">Professional Nail Technicians</h4>
+<p class="text-on-surface-variant font-light">Artisans trained in the latest global techniques for health-first beauty.</p>
+</div>
+</div>
+<div class="flex gap-6 items-start">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="eco">eco</span>
+<div>
+<h4 class="font-headline text-xl mb-2">High Quality Products</h4>
+<p class="text-on-surface-variant font-light">Exclusively non-toxic, long-wearing formulas that nourish your natural nails.</p>
+</div>
+</div>
+<div class="flex gap-6 items-start">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="spa">spa</span>
+<div>
+<h4 class="font-headline text-xl mb-2">Clean &amp; Relaxing Environment</h4>
+<p class="text-on-surface-variant font-light">Designed as a sensory retreat to help you disconnect from the bustle.</p>
+</div>
+</div>
+<div class="flex gap-6 items-start">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="timer">timer</span>
+<div>
+<h4 class="font-headline text-xl mb-2">Long Lasting Results</h4>
+<p class="text-on-surface-variant font-light">Beauty that endures, with meticulous application for maximum durability.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-32 px-12 bg-primary">
+<div class="container mx-auto text-center">
+<h2 class="font-headline text-5xl md:text-6xl text-surface mb-10 leading-tight">Ready for <br/> <span class="italic font-light text-primary-container">beautiful nails?</span></h2>
+<a class="inline-flex items-center gap-4 bg-surface text-primary px-12 py-6 rounded-full font-label font-bold tracking-widest text-sm hover:bg-primary-container hover:text-surface transition-all active:scale-95" href="#">
+                CHAT ON WHATSAPP
+                <span class="material-symbols-outlined">send</span>
+</a>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-32 px-12 bg-surface">
+<div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-16">
+<div>
+<h3 class="font-headline text-3xl mb-8">Visit Us</h3>
+<p class="text-on-surface-variant font-light text-lg mb-6 leading-relaxed">
+                    123 Elegance Boulevard, <br/>
+                    Luxury District, Paris 75001
+                </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 border border-outline-variant rounded-full flex items-center justify-center text-on-surface-variant hover:border-primary hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined text-xl">social_leaderboard</span>
+</a>
+<a class="w-10 h-10 border border-outline-variant rounded-full flex items-center justify-center text-on-surface-variant hover:border-primary hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined text-xl">photo_camera</span>
+</a>
+</div>
+</div>
+<div>
+<h3 class="font-headline text-3xl mb-8">Contact</h3>
+<p class="text-on-surface-variant font-light text-lg mb-2">+33 1 23 45 67 89</p>
+<p class="text-on-surface-variant font-light text-lg mb-8">hello@lesoleil.com</p>
+<a class="text-primary font-label text-sm uppercase tracking-widest border-b-2 border-primary pb-2 font-bold" href="#">WhatsApp Direct</a>
+</div>
+<div>
+<h3 class="font-headline text-3xl mb-8">Hours</h3>
+<div class="space-y-2 text-on-surface-variant font-light">
+<div class="flex justify-between border-b border-outline-variant/30 pb-2">
+<span>Mon - Fri</span>
+<span>09:00 - 19:00</span>
+</div>
+<div class="flex justify-between border-b border-outline-variant/30 pb-2">
+<span>Saturday</span>
+<span>10:00 - 18:00</span>
+</div>
+<div class="flex justify-between text-error/60">
+<span>Sunday</span>
+<span>Closed</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#f4f3f1] dark:bg-[#121110] w-full rounded-t-[3rem] mt-20">
+<div class="flex flex-col items-center gap-8 py-16 px-12 w-full max-w-[1920px] mx-auto">
+<div class="text-xl font-['Noto_Serif'] text-[#775a19] dark:text-[#c5a059]">LE SOLEIL</div>
+<div class="flex flex-wrap justify-center gap-12">
+<a class="font-['Plus_Jakarta_Sans'] text-sm tracking-wide text-[#4e4639] dark:text-[#d1c5b4] hover:underline decoration-[#c5a059] underline-offset-4 transition-all duration-200" href="#">Privacy Policy</a>
+<a class="font-['Plus_Jakarta_Sans'] text-sm tracking-wide text-[#4e4639] dark:text-[#d1c5b4] hover:underline decoration-[#c5a059] underline-offset-4 transition-all duration-200" href="#">Terms of Service</a>
+<a class="font-['Plus_Jakarta_Sans'] text-sm tracking-wide text-[#4e4639] dark:text-[#d1c5b4] hover:underline decoration-[#c5a059] underline-offset-4 transition-all duration-200" href="#">Contact</a>
+</div>
+<div class="text-[#4e4639] dark:text-[#d1c5b4] font-['Plus_Jakarta_Sans'] text-xs tracking-widest opacity-60">
+            © 2024 LE SOLEIL MANI &amp; PEDI. ALL RIGHTS RESERVED.
+        </div>
+</div>
+</footer>
+</body></html>
